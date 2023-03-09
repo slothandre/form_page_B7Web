@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #AAA;
+}
+#header_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_container {
+    background-color: #FFF;
+    padding: 30px;
+    margin: auto;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #000;
+}
+.form_container h2 {
+    text-align: center;
+}
+.form {
+    background-color: #FFF;
+}
+.form_name input {
+    width: 48%;
+}
+.form_name input {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#name {
+    margin-right: 16px;
+}
+legend {
+    text-align: center;
+}
+.address select,
+#city,
+#birthdate {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+@media (max-width: 620px) {
+    .form_container {
+        width: 100%;
+    }
+    .form_name input {
+        width: 100%;
+    }
+}
